@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    position: sticky;
+    top: 0em;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 7px;
+}
+#direct{
+    margin-right: 7px;
+}
+img {
+    height: 90px;
+}
+.bio {
+    padding-top: 7px;
+    background: lightgray;
+    text-align: center;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.projects {
+    background: gray;
+    color: black;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    padding-top:150px;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    background: white;
+    text-align: center;
+    padding-top: 25px;
+}
+.contact-page {
+    border: 1px solid balck;
+    background: lightgray;
+    color: black;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    padding-top:150px;
+}
