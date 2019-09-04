@@ -130,6 +130,7 @@ footer {
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
 }
 #linkedinlogo {
     width: 2em;
@@ -145,10 +146,13 @@ h2 {
 #gmaillogo:hover, #githublogo:hover, #linkedinlogo:hover {
     font-size: 20px;
 } 
+#home:hover, #projects:hover, #contact:hover {
+    font-size: 20px;
+}
 @media screen and (min-width:768px) {
     .bio {
-        padding-left:250px;
-        padding-right:250px;
+        padding-left:150px;
+        padding-right:150px;
     }
     #quizScreenShot {
         width: 60%;
@@ -156,6 +160,14 @@ h2 {
     }
     .navbar {
         font-size: 17px;
+        flex-direction: row;
+        justify-content: flex-end;
     }
 
+}
+@media screen and (min-width:1025px) {
+    .bio {
+        padding-left:250px;
+        padding-right:250px;
+    }
 }
