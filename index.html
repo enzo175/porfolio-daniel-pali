@@ -3,39 +3,55 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Daniel-Pali-Portfolio</title>
   <meta name="author" content="">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="style1.css" rel="stylesheet">
 </head>
 
 <body>
-<header role="navbar">
-  <a href="#bio" id="direct">Home</a>
-  <a href="#projects" id="direct">Projects</a>
-  <a href="#contact" id="direct">Contact</a>
-</header>
+<section class="navbar">
+  <div class="direct">
+  <a href="#bio" id="home">Home</a>
+  <a href="#projects" id="projects">Projects</a>
+  <a href="#contact" id="contact">Contact</a>
+  </div>
+</section>
   <main>
+      <h1>Daniel Pali</h1>
     <section class="bio">
-      <img src="https://www.pastepic.xyz/images/2019/09/03/IMG_0129Portfoliod650bfde4caf6f65.jpg" alt="hero-img" />
-      <p>Hello, my name is Daniel and I am a front-end Web developer.</p>
-
-       <p> I am a Web Developer currently enrolled in Thinkful's Engineering Flex Bootcamp. Coding just happens to be my passion. It's the one place I can let my creativity and logic work together in solving problems of all kinds. The ability to program applications and keep them running smoothly is where I spend most of my days. 
-        If I am not expressing and challenging myself through code you can find me reading abstract philosophical ideas or writing about them on Medium. Otherwise, I would be on a mountain bike traveling through California's wonderful mountain ranges. I would like to experience, learn, and give as much as I can in this life. </p>
+      <div id="top-img"><img src="PortfolioLogo.jpg" alt="hero-img"/></div>
+          <p>Hello, my name is Daniel and I am a front-end Web developer.</p>
+          <p> I am a Web Developer currently enrolled in Thinkful's Engineering Flex Bootcamp. Coding just happens to be my passion. It's the one place I can let my creativity and logic work together in solving problems of all kinds. The ability to program applications and keep them running smoothly is where I spend most of my days.</p> 
+          <p>If I am not expressing and challenging myself through code you can find me reading abstract philosophical ideas or writing about them on Medium. Otherwise, I would be on a mountain bike traveling through California's wonderful mountain ranges. I would like to experience, learn, and give as much as I can in this life. 
+        </p>
     </section>
-    <section class="projects">
-      <p>projects</p>
+    <section class="projects-page">
+        <h2>Projects</h2>
+        <p>Take your mind for a spin. Test your knowledge on automobiles and their nation of origin.</p>
+      <img src="CarquizAppcompressed.png" id="quizScreenShot" alt="car quiz app screenshot"/><br>
+      <img id="htmllogo" src="pics/html_logo.png" alt="html logo"/>
+      <img id="csslogo" src="pics/css_logo.png" alt="css logo"/>
+      <img id="jslogo" src="pics/JavaScript_logo 2.42.08 PM.png" alt="javascript logo"/>
+      <div id="project-link"><a href="https://enzo175.github.io/carQuizAppFinal/">View Page</a></div>
+      <div id="project-codelink"><a href="https://github.com/enzo175/carQuizAppFinal">View Code</a></div>
     </section>
     <section class="contact-page">
-      <p>Contact</p>
+      <h2>Contact</h2>
+      <div class="contact-links">
+        <a href="https://github.com/enzo175"><img id="githublogo" src="pics/githublogo.png" alt="github logo"/></a>
+        <a href="https://www.linkedin.com/in/daniel-p-486658192/"><img id="linkedinlogo" src="pics/linkedin-logo.png" alt="linkedin logo"/></a>
+        <a href="mailto:daniel.pali94@gmail.com"><img id="gmaillogo" src="pics/gmaillogo.png" alt="gmail logo"/></a>
+      </div>
     </section>
   </main>
-  <footer>footer</footer>
+  <footer>©Daniel Pali 2019</footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
